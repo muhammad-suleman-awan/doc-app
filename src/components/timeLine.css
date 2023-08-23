@@ -1,0 +1,63 @@
+ .dashboard{
+    width: 80%;
+    height: 390px;
+    /* border: groove;  */
+    margin-left: 10%;
+    display: flex; 
+ }
+ .htitle{
+    margin-top: 30px;
+ }
+
+ .htitle p{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    max-width:min-content;
+    padding-left: 0px;
+    text-align: left;
+    letter-spacing:1px;
+    -webkit-text-stroke-width: thin;
+    position: absolute;
+    line-height: 14px;
+    padding-top: 6px;
+    color: rgba(20,121,255,255);
+ }
+
+ .pointmentschedule{
+    margin-top: 100px;
+    position: absolute;
+
+    
+ }
+ .pointmentscheduleiterm{
+    width: 185px;
+    height: 28px;
+    margin-top: 6px;
+    border: groove;
+    border-color:  #0000000d;
+    margin-left: 0px;
+ border-radius: 10px;
+    padding-left: 30px;
+    /* position: absolute; */ 
+ }
+ .pointmentscheduleiterm p{
+    text-indent: 0px;
+    position: absolute; 
+    margin-top: 3px;
+    margin-left: -2px;
+    font-size: 12px; 
+ }
+ .icons{
+   position: absolute; 
+   margin-top: 4px;
+     margin-left: -20px;  
+ }
+
+ .hr {
+   border: 1px solid black;
+   width: 60px;
+   margin-left: 60px;
+ }

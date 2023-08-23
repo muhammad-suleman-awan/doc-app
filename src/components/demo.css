@@ -1,0 +1,44 @@
+.maindiv{
+    padding-top: 25px;
+    width: 850px;
+    height: 90%;
+    border: none;
+    /* backgroundColor: red;  */
+    display:flex;
+    background-color: white;
+    position: absolute;
+    border-radius: 40px;
+    padding-left: 40px;
+    margin-left: 50px; 
+    justify-content: flex-start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.mainsubdiv{
+   width: 260px;
+   height: 450px;  
+    /* justify-content: space-around; */
+
+}
+#stnavbar{
+    width: 120px; 
+    
+ /* border: groove; */
+    /* backgroundColor: yellow; */
+}
+#ndtimeline{
+    width: 240px; 
+    height: 105%;
+    margin-top: -25px;
+    border: none; 
+      background-color: rgba(243,248,255,255);  
+}
+#rdtimeline{ 
+    /* border: groove; */
+    width: 425px; 
+    height: 105%;
+    margin-top: -25px; 
+    background-color: rgba(243,248,255,255);  
+    
+}

@@ -1,0 +1,48 @@
+.mainnav{
+    margin-top: 10px;
+}
+ 
+.title p{
+    color: rgba(20,121,255,255);
+    margin-left: 10px;
+    width: 20px;
+    height: 20px; 
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+ .mainnavitems{
+  /* background-color: red; */
+    width: 70px;
+    height: 50px;
+    margin-top: 15px;
+    align-items: center; 
+    /* padding-top: 10px; */
+    margin-left: 0px;
+   /* border: groove;   */
+   
+ }
+ .mainnavitems button{
+    width: 30px;
+    height: 30px;
+    
+     /* background-color: blue;   */
+    border-radius: 10px;
+      box-shadow:  rgb(38, 57, 77) 0px 20px 30px -20px; 
+    border: none;
+    }
+ .mainnavitems p{
+    font-size: 8px;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(20,121,255,255);
+    padding-top: 3px;
+ }
+ 
+ 
+ #hmainnavitems{
+    background-color: none;
+ }
+ 
+ 

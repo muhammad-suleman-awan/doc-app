@@ -1,0 +1,229 @@
+.appointmentbox{
+    width: 450px;
+    height:508px;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    /* background-color: red; */
+    background-color: rgba(247,250,254,255)
+    ;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+}
+
+.calander{
+    /* width: 100%; */
+    height: 150px;
+    margin-top: 35px;
+    /* background-color:tomato; */ 
+    padding: 20px;
+    font-size: 30px;
+    border: 2px none gray;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.reportmessagetag{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 35px;  
+    border: 2px none gray;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pointmenttag{
+    width: 420px;
+    height: 300px;
+    border: 2px none gray;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.calander p{
+    font-size: 12px;
+    font-weight: 800;
+    text-align: justify;
+    margin-top: -10px;
+
+}
+ .calanderprt{
+    width: 120px;
+    height: 100px;
+   /* border: 2px solid red; */
+    /* margin-top:12px;
+    margin-left: -57px;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 2px;
+ }
+ .calanderprtiterms{
+    /* margin: 2px; */
+    width: 12.28%;
+    height: 14px;
+    border: 2px solid #0000000d; 
+    border-radius: 5px; 
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+    margin-top: -4px;
+    margin-left: 0px;
+ }
+ .headtitle{
+    margin-top: 5px;
+
+ }
+
+ .headtitle p{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+     /* max-width:min-content; */
+   padding-left: 20px;
+    text-align: left;
+    letter-spacing:1px;
+    -webkit-text-stroke-width: thin;
+    position: absolute;
+    line-height: 14px;
+    padding-top: 10px;
+ /*    color: rgba(20,121,255,255); */
+ }
+ 
+ .todayappointmenttagtitle p{
+    position: absolute;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    /* max-width:min-content; */
+    padding-left: 15px;
+    text-align: left;
+    letter-spacing:1px;
+    -webkit-text-stroke-width: thin;
+    line-height: 14px;
+    margin-top: 30px;
+    color: rgba(20,121,255,255);
+ }
+ .todayappointmenttagtitle{
+    width: 430px;
+    height:300px;
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    /* background-color: red; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    margin-top: 20px;
+ }
+ .followup_new
+{
+    width: 380px;
+    height: 110px;
+    position: absolute;
+   /* border: 2px solid red; */
+    margin-top:-230px;
+ /*    margin-left: -57px;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 2px;
+    /* border: groove; */
+    margin-left: 30px;    
+    gap: 20px;
+}
+
+.followup_newIterms{
+
+    width: 15%;
+    height: 80px;
+    border: 2px solid #0000000d; 
+    border-radius: 0px; 
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+    margin-top: -4px;
+    margin-left: 0px;
+    border-radius: 12px; 
+    box-shadow: rgba(230,241,255,255) 0px 0px 30px 4px;
+}
+
+.iconsapt{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    background:rgba(230,241,255,255);
+    border-radius: 5px;
+    
+}
+
+.iconapt{
+    color: rgba(20,121,255,255);
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    margin-top:2px;
+    margin-left: -5px;
+}
+
+.monthlyrpt{
+    width: 430px;
+    height:100px;
+    border: none; 
+    position: absolute; 
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+ .monthlyrpttitle{ 
+    border: none; 
+    /* background-color: red; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+ }
+
+ .monthlyrpttitle p{
+    position: absolute;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    /* max-width:min-content; */
+    padding-left: 15px;
+    text-align: left;
+    letter-spacing:1px;
+    -webkit-text-stroke-width: thin;
+    line-height: 14px;
+    margin-top: 2px;
+    color: rgba(20,121,255,255);
+ }
+
+ .reportDetail{
+    width: 180px;
+    height: 40px;
+     border: 2px none ; 
+ /*    margin-left: -57px;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 2px;
+    margin-top: 30px;
+    /* border: groove; */
+    margin-left: 15px;    
+    gap: 20px;
+    border-radius: 5px;
+     
+    box-shadow: rgba(230,241,255,255) 0px 0px 30px 4px;
+}
